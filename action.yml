@@ -1,10 +1,10 @@
-name: 'Hello World'
+name: 'Algorithm question generator'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  json-data:  # id of input
+    description: 'Reading the json file'
     required: true
-    default: 'World'
+    default: 'data.json'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
