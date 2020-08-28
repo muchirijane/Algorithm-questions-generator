@@ -1,0 +1,24 @@
+{
+  "name": "algorithm-questions-generator",
+  "version": "1.0.0",
+  "description": "Creating random questions to be generated to your readme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muchirijane/Algorithm-questions-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muchirijane/Algorithm-questions-generator/issues"
+  },
+  "homepage": "https://github.com/muchirijane/Algorithm-questions-generator#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}
