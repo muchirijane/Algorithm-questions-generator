@@ -5,9 +5,9 @@ inputs:
     description: 'Reading the json file'
     required: true
     default: 'data.json'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  github-token:
+    description: "github token"
+    required: true
 runs:
   using: 'node12'
   main: 'index.js'

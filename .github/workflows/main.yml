@@ -5,11 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+    - uses: actions/checkout@v2
     - name: Hello world action step
-      id: hello
-      uses: actions/hello-world-javascript-action@v1
+      uses: muchirijane/Algorithm-questions-generator@master
       with:
-        who-to-greet: 'Mona the Octocat'
+        data-path: 'data.json'
+        github-token: ${{secrets.GITHUB_TOKEN}}
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
