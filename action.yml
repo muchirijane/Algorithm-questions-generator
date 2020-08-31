@@ -1,4 +1,4 @@
-name: 'Algorithm question generator'
+name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
   json-data:  # id of input
