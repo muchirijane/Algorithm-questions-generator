@@ -10,5 +10,4 @@ jobs:
       uses: muchirijane/Algorithm-questions-generator@master
       with:
         data-path: 'data.json'
-        github-token: ${{secrets.GITHUB_TOKEN}}
     # Use the output from the `hello` step

@@ -5,9 +5,6 @@ inputs:
     description: 'Reading the json file'
     required: true
     default: 'data.json'
-  github-token:
-    description: "github token"
-    required: true
 runs:
   using: 'node12'
   main: 'index.js'
